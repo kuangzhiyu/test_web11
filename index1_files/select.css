@@ -1,0 +1,53 @@
+
+#divtt{
+background:url(images/typeselector/back.gif); padding:0; border:1px solid #ADB9C2;
+}
+#divtt td.tt{
+	background:url(images/typeselector/ttico4.gif) 5px 5px no-repeat;
+	color:#333;
+	padding:0px 0px 0px 26px;
+	font-weight:bold;
+	font-size:12px;
+	line-height:26px;
+}
+#divtt a{
+	color:#006699;
+	text-decoration:none;
+	margin-right:4px;
+}
+#divtt span{
+	color:#006699;
+	text-decoration:none;
+	margin-right:4px;
+}
+#divtt a:active,#divtt a:hover{color:#FFA40B;text-decoration:underline}
+
+.select_td {}
+
+.select_td td {padding:2px; margin:2px;}
+
+
+.hong{
+	color:#0099CC;
+	font-weight:normal;
+}
+.dl{
+	color:#333;
+	font-weight:bold;
+	background:#F2F2F2;
+	line-height:26px;
+}
+.case{
+	width:130px;
+	height:21px;
+	border:0px;
+	background:url(images/typeselector/search_case.gif) no-repeat;
+}
+
+.td_width{overflow:hidden; text-overflow:ellipsis;  white-space:nowrap; width:33%;}
+
+.div_p{ margin:24px 0 0 0; position:absolute;padding:8px; border:1px solid #999; background:#fff;}
+
+.div_l_js{ margin:24px 0 0 -420px; position:absolute;padding:8px; border:1px solid #999; background:#fff;}
+
+.div_c{ margin:24px 0 0 -320px; position:absolute;padding:8px; border:1px solid #999; background:#fff;}

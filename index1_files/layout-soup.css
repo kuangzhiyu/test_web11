@@ -1,0 +1,84 @@
+/*============= Canvas blocks  ============*/
+#xo-canvas-columns {
+    width:                      100%;
+}
+#xo-canvas-leftcolumn { width: 170px;}
+#xo-page {
+    min-height:                 400px;
+    border-width:               1px 2px 2px 1px;
+}
+* html #xo-page {   height:     400px; }
+#xo-canvas-rightcolumn {
+    width:                      170px;
+    border-width:               1px 2px 2px 0;
+
+}
+#xo-canvas-leftcolumn, #xo-page, #xo-canvas-rightcolumn {
+    vertical-align:         top;
+}
+
+#xo-canvas.leftcolumn-layout #xo-canvas-columns, #xo-canvas.threecolumns-layout #xo-canvas-columns {}
+#xo-canvas.rightcolumn-layout #xo-page, #xo-canvas.threecolumns-layout #xo-page { border-right-width:   0;}
+#xo-canvas-bottom, #xo-canvas-footer {}
+/*=========== Page blocks =============*/
+#xo-page-topblocks {
+    padding:                    0 10px;
+}
+#xo-page-bottomblocks {
+    padding:                    0 10px 10px;
+}
+#xo-page .xo-blockszone .xo-block {
+    margin-bottom:              10px;
+}
+#xo-page-topleftblocks, #xo-page-bottomleftblocks {
+    float:                      left;
+    width:                      49.5%;
+}
+#xo-page-toprightblocks, #xo-page-bottomrightblocks {
+    float:                      right;
+    width:                      49.5%;
+}
+#xo-page-topcenterblocks, #xo-page-bottomcenterblocks {
+    clear:                      both;
+}
+/*
+#xo-page .xo-pageblocks .xo-blockszone, #xo-page .xo-pageblocks .xo-blockszone {
+    float:                      left;
+    clear:                      none;
+    width:                      33%;
+}
+*/
+.xo-pageblocks #xo-page-topleftblocks,
+.xo-pageblocks #xo-page-topcenterblocks,
+.xo-pageblocks #xo-page-bottomleftblocks,
+.xo-pageblocks #xo-page-bottomcenterblocks {
+    margin-right:               .5%;
+}
+#xo-page .xo-blockszone .xo-blockcontent {
+    min-height:                 50px;
+}
+* html #xo-page .xo-blockszone .xo-blockcontent { height: 50px; }
+#xo-page-topblocks .xo-block,
+#xo-page-bottomblocks .xo-block {
+    padding-top:                2px;
+}
+#xo-page-topblocks *>.xo-block,
+#xo-page-bottomblocks *>.xo-block {
+    padding-top:                0;
+}
+#xo-page .xo-blockszone > .xo-block {
+    border-style:               none solid none none;
+    padding-left:               4px !important;
+}
+#xo-page .xo-blockszone .xo-block:before {
+    display:                    block;
+    height:                     7px;
+    margin-left:                -4px !important;
+    margin-right:               -1px !important;
+}
+#xo-page .xo-blockszone .xo-block:after {
+    display:                    block;
+    height:                     7px;
+    margin-left:                -4px !important;
+    margin-right:               -1px !important;
+}

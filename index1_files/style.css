@@ -1,0 +1,116 @@
+/* CSS Document */
+
+.clear{
+	clear:both;
+	}
+
+body { margin: 0; }
+
+#advice_Bg{
+	width:656px;
+	height:392px;
+	background-color:#fff;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin: -196px 0 0 -328px;
+    z-index: 999;
+	}
+#advice_Bg.progress { background: #eee; }
+#advice_Bg .advice_Bg { border:3px solid #2b529c; width:656px; height:392px; background: #fff; }
+
+#feedback-link {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+* html,* html body { background-image:url(about:blank); background-attachment:fixed; }
+* html #feedback-link,
+* html #advice_Bg {
+	position : absolute;
+	top : expression(eval(offsetParent.scrollTop + document.documentElement.clientHeight - this.offsetHeight));
+}
+
+.close_Box{
+	margin:7px 7px 0 0;
+	float:right;
+	}
+
+	.close_Btn{
+		background-image:url(../images/advice_Close.jpg);
+		background-repeat:no-repeat;
+		width:15px;
+		height:16px;
+		float:left;
+		}
+
+.advice_Box{
+	margin-left:48px;
+	}
+
+	.advice_Title{
+		background:url(../images/talk_Icon.jpg) no-repeat;
+		padding-left:23px;
+		height:30px;
+		}
+
+		.font14_000{
+			font-family:"宋体";
+			font-size:14px;
+			color:#000;
+			}
+
+	.ad_Text_Box{
+		margin-left:27px;
+		}
+
+		.font12_3f62a6{
+		font-family:"宋体";
+		font-size:12px;
+		color:#3f62a6;
+		line-height:24px;
+		}
+
+		.ad_Text_Area_Box{
+			width:510px;
+			height:105px;
+			overflow:hidden;
+			}
+
+		.font12_999{
+		font-family:"宋体";
+		font-size:12px;
+		color:#999;
+		line-height:24px;
+		}
+
+	.advisee{
+		height:30px;
+		}
+
+		.adse_Name_Tel_Box{
+			width:100px;
+			text-align:right;
+			font-family:"宋体";
+			font-size:12px;
+			color:#000;
+			}
+
+		.adse_Text{
+			background:url(../images/ad_Text.jpg) no-repeat;
+			width:198px;
+			height:27px;
+			border:none;
+			padding:3px 0 0 5px;
+			font-size:12px;
+			}
+
+		.adse_Submit{
+			background:url(../images/sent_Btn.jpg) no-repeat;
+			width:88px;
+			height:31px;
+			border:none;
+            cursor: pointer;
+			}
